@@ -1,0 +1,37 @@
+.banner {
+    min-height: calc(100vh - 80px);
+    width: 100%;
+    display: flex;
+    background: url('../components/banner.jpeg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.backdrop {
+    width: 100%;
+    min-height: calc(100% - 70px);
+    backdrop-filter: brightness(30%);
+    background: linear-gradient(180deg,#101316 , rgba(0, 0, 0, 0));
+}
+
+.banner_tag{
+    height: 100%;
+}
+
+.banner_tag h1{
+    padding-left: 20%; 
+    font-family: 'Montserrat';
+    padding-top:60px ;
+    font-size: 120px;
+    padding-right: 50%;
+    color: white;
+    text-align: right;
+    text-shadow: rgb(255, 209, 122) 0px 0px 16px;
+}
+
+@media only screen and (max-width: 768px) {
+    .banner {
+        min-height: calc(100vh - 80px);
+    }
+}

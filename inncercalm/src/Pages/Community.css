@@ -1,0 +1,152 @@
+.cmnitypage{
+    scroll-behavior: smooth;
+}
+
+.cmnitypage header {
+    font-size: 20px;
+    color: white;
+    padding: 3% 20%;
+    text-align: center;
+}
+
+.head_st {
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.allposts {
+    display: flex;
+    gap: 70px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.post {
+    /* border: 2px solid white; */
+    max-width: 30%;
+    padding: 20px 30px;
+    background-color: #1e2227;
+    color: white;
+    border-radius: 20px;
+    box-shadow: #000 0px 0px 10px;
+
+}
+
+.posthead {
+    display: flex;
+    color: white;
+    padding: 30px 30px;
+    align-items: center;
+    font-family: 'Baloo Bhai 2';
+}
+
+.posthead img {
+    height: 30px;
+    border-radius: 50%;
+    margin: 0px 30px;
+    margin-left: 0;
+}
+
+.post_content {
+    font-family: 'Montserrat';
+    padding: 30px;
+    padding-top: 0;
+}
+
+.post_text {
+    font-size: 15px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+
+.form-popup {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .form-popup form {
+    background-color: #f7f7f7;
+    max-width: 500px;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-popup h3 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+  
+  .form-popup label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-popup input,
+  .form-popup textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-popup button[type="submit"],
+  .form-popup button[type="button"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .form-popup button[type="submit"]:hover,
+  .form-popup button[type="button"]:hover {
+    background-color: #3e8e41;
+  }
+  
+
+  .share_btn{
+    display: inline-flex;
+    justify-content: center;
+    height: 40px;
+    padding: 10px 20px;
+    background-color: #152446;
+    border: none;
+    outline: none;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 2px solid white;
+  }
+
+  .sharesection{
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, #000 0%, rgba(0, 0, 0, 0) 80%);
+    /* backdrop-filter: blur(4px); */
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
