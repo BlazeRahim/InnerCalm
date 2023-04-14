@@ -24,11 +24,12 @@ const Nav = () => {
                         <NavLink to="/community">Community</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/education">Education</NavLink>
-                    </li>
-                    <li>
                         <NavLink to="/music">Music</NavLink>
                     </li>
+                    <li>
+                        <NavLink to="/education">Education</NavLink>
+                    </li>
+                    
                     <li>
                         <NavLink to="/helplines">Helplines</NavLink>
                     </li>

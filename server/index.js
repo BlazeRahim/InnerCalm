@@ -3,13 +3,7 @@ const mongoose = require("mongoose")
 const app = express();
 const bodyParser = require('body-parser')
 let port = 5000;
-
-///////////////////////CAUTION////////////////////////////////////// 
-//YOU NEED TO TYPE THE PASSWORD TO MAKE THE SERVER WORKING
-const db = "mongodb+srv://innercalm:<password>@innercalm.hyeb5s1.mongodb.net/innercalm"; 
-
-
-
+const db = "mongodb+srv://innercalm:innercalm@innercalm.hyeb5s1.mongodb.net/innercalm";
 const router = express.Router();
 const cors = require('cors')
 
