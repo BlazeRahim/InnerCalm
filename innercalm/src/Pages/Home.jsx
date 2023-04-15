@@ -1,10 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import './Home.css';
 import Nav from '../components/Nav'
 import imglink from '../components/linksofimgs'
 import Footer from '../components/Footer'
 import { Link } from "react-router-dom";
 const Home = () => {
+
+    useEffect(() => {
+        // Update document title when component mounts
+        document.title = 'InnerCalm - Home';
+        // Clean up document title when component unmounts
+        return () => {
+            document.title = 'InnerCalm';
+        }
+    }, []);
+
 
     let img1, img2, img3;
 
@@ -56,27 +66,26 @@ const Home = () => {
             </section>
 
 
-
+            {/* 
             <section className="listen_music">
                 <div className="listen_music_content">
                     <h2>
                         MUSIC HEALS ..
                     </h2>
                     <p>
-                        {/*WRITE SOMETHING HERE ABOUT LISTENING TO OUR PEACEFUL MUSIC AND SOUNDS */}
                         Music has the power to heal and soothe our souls. Listening to our peaceful music and sounds can bring relaxation, tranquility, and a sense of inner peace. It can help reduce stress, anxiety, and promote overall well-being. Our carefully curated collection of music is designed to elevate your mood, calm your mind, and rejuvenate your spirit.
                     </p>
 
                 </div>
 
                 <div className="listen_music_right">
-                    <button className="listen_button">
-                        <span className="link">
-                            <Link to="/music">Listen Now</Link>
-                        </span>
-                    </button>
+                <button className="listen_button">
+                    <span className="link">
+                        <Link to="/music">Listen Now</Link>
+                    </span>
+                </button>
                 </div>
-            </section>
+            </section> */}
 
             <section className="mtimgs">
                 <div className="mt_content">

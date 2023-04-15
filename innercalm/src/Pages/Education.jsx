@@ -1,10 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Nav from '../components/Nav_nothome';
 import './Education.css'
 import Footer from '../components/Footer'
 
 import { FaLink } from 'react-icons/fa';
 const Education = () => {
+
+
+    useEffect(() => {
+        // Update document title when component mounts
+        document.title = 'InnerCalm - Community';
+        // Clean up document title when component unmounts
+        return () => {
+            document.title = 'InnerCalm';
+        }
+    }, []);
+
     // An array of educational resources
     const resources = [
         {
@@ -83,7 +94,7 @@ const Education = () => {
                     }
                 </div>
             </div>
-            <Footer/>
+            <Footer />
         </>
     )
 }

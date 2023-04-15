@@ -7,12 +7,14 @@
 
 .linearbgcmitypg {
   transition: 0.3s all ease-in-out;
-  background: linear-gradient(#fff, #f2b5bb78);
+  background: linear-gradient(#fff, #f2b5bb,#5faae3, #939bcb);
 }
 
-.CMT{
+.CMT {
   transition: 0.3s all ease-in-out;
 }
+
+
 .cmnitypage header {
   font-size: 17px;
   color: black;
