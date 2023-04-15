@@ -1,10 +1,20 @@
-import React from "react";
+import React,{useEffect} from "react";
 import './Home.css';
 import Nav from '../components/Nav'
 import imglink from '../components/linksofimgs'
 import Footer from '../components/Footer'
 import { Link } from "react-router-dom";
 const Home = () => {
+
+    useEffect(() => {
+        // Update document title when component mounts
+        document.title = 'InnerCalm - Home';
+        // Clean up document title when component unmounts
+        return () => {
+            document.title = 'InnerCalm';
+        }
+    }, []);
+
 
     let img1, img2, img3;
 
@@ -56,7 +66,7 @@ const Home = () => {
             </section>
 
 
-{/* 
+            {/* 
             <section className="listen_music">
                 <div className="listen_music_content">
                     <h2>

@@ -5,6 +5,15 @@ import "./Community.css"
 
 const Community = () => {
 
+    useEffect(() => {
+        // Update document title when component mounts
+        document.title = 'InnerCalm - Community';
+        // Clean up document title when component unmounts
+        return () => {
+            document.title = 'InnerCalm';
+        }
+    }, []);
+
     const [showForm, setShowForm] = useState(false);
     const [suberr, setSubErr] = useState(false);
     const [name, setName] = useState('');
@@ -137,7 +146,7 @@ const Community = () => {
 
     return (
         <>
-            <Nav/>
+            <Nav />
             <div className="CMT">
                 <div className={cmtpg}>
                     <header>We believe that by sharing our experiences, we can help others feel less alone and inspire them to seek the help they need. Join us in creating a supportive and inclusive space where everyone's voice is heard.</header>

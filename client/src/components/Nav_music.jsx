@@ -14,32 +14,32 @@ const Nav = () => {
             <nav className="navbarmusic" >
                 <div className="navbar__logo">
                     <NavLink to="/">
-                        <img style={{filter : "drop-shadow(#000 2px 2px 5px)"}} src={logomusic} alt="" />
+                        <img style={{ filter: "drop-shadow(#000 2px 2px 5px)" }} src={logomusic} alt="" />
                     </NavLink>
                 </div>
-                <ul className={open ? "navbar__list active" : "navbar__list"}>
+                <ul style={{ marginBottom: "0px" }} className={open ? "navbar__listms active" : "navbar__listms"}>
                     <li>
-                        <NavLink style={{color:"white", textShadow : "2px 2px 5px #000"}}  to="/">Home</NavLink>
+                        <NavLink style={{ color: "white", textShadow: "2px 2px 5px #000" }} to="/">Home</NavLink>
                     </li>
                     <li>
-                        <NavLink style={{color:"white", textShadow : "2px 2px 5px #000"}}  to="/community">Community</NavLink>
+                        <NavLink style={{ color: "white", textShadow: "2px 2px 5px #000" }} to="/community">Community</NavLink>
                     </li>
                     <li>
-                        <NavLink  style={{color:"white", textShadow : "2px 2px 5px #000"}} to="/music">Music</NavLink>
+                        <NavLink style={{ color: "white", textShadow: "2px 2px 5px #000" }} to="/music">Music</NavLink>
                     </li>
                     <li>
-                        <NavLink style={{color:"white", textShadow : "2px 2px 5px #000"}}  to="/education">Education</NavLink>
+                        <NavLink style={{ color: "white", textShadow: "2px 2px 5px #000" }} to="/education">Education</NavLink>
                     </li>
 
                     <li>
-                        <NavLink  style={{color:"white", textShadow : "2px 2px 5px #000"}} to="/helplines">Helplines</NavLink>
+                        <NavLink style={{ color: "white", textShadow: "2px 2px 5px #000" }} to="/helplines">Helplines</NavLink>
                     </li>
                     <li>
-                        <NavLink  style={{color:"white", textShadow : "2px 2px 5px #000"}} to="/contact">Contact us</NavLink>
+                        <NavLink style={{ color: "white", textShadow: "2px 2px 5px #000" }} to="/contact">Contact us</NavLink>
                     </li>
                 </ul>
                 <div className="navbar__menu" onClick={handleClick}>
-                    <div style={{filter : "invert() drop-shadow(#000 1px 1px 3px)"}} className={open ? "navbar__menu-icon open" : "navbar__menu-icon"}>
+                    <div style={{ filter: "invert() drop-shadow(#000 1px 1px 3px)" }} className={open ? "navbar__menu-icon open" : "navbar__menu-icon"}>
                         <span></span>
                         <span></span>
                         <span></span>

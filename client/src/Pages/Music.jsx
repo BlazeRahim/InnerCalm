@@ -1,13 +1,18 @@
-import { useState, useRef } from "react";
-import { faPlay, faPause, faStepBackward, faStepForward, faVolumeMute, faVolumeUp, faExpand } from '@fortawesome/free-solid-svg-icons';
+import { useState, useRef, useEffect } from "react";
+import {
+    faPlay,
+    faPause,
+    faStepBackward,
+    faStepForward,
+    // faVolumeMute,
+    // faVolumeUp,
+    faExpand
+} from '@fortawesome/free-solid-svg-icons';
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Nav from '../components/Nav_music'
-import pic1 from '../components/Image-1.jpg'
-import pic2 from '../components/Image-2.jpg'
-import pic3 from '../components/Image-3.jpg'
-import pic4 from '../components/Image-4.jpg'
-import './Music.css'
 
+import './Music.css'
 
 //MUSIC
 
@@ -17,10 +22,15 @@ import music3 from "../components/music/music3.mp3";
 import music4 from "../components/music/music4.mp3";
 import music5 from "../components/music/music5.mp3";
 
+let pic1 = 'https://raw.githubusercontent.com/BlazeRahim/InnerCalm/main/innercalm/src/components/Image-1.jpg'
+let pic2 = 'https://raw.githubusercontent.com/BlazeRahim/InnerCalm/main/innercalm/src/components/Image-2.jpg'
+let pic3 = 'https://raw.githubusercontent.com/BlazeRahim/InnerCalm/main/innercalm/src/components/Image-3.jpg'
+let pic4 = 'https://raw.githubusercontent.com/BlazeRahim/InnerCalm/main/innercalm/src/components/Image-4.jpg'
+let pic5 = 'https://raw.githubusercontent.com/BlazeRahim/InnerCalm/main/innercalm/src/components/Image-5.jpg'
+let pic6 = 'https://raw.githubusercontent.com/BlazeRahim/InnerCalm/main/innercalm/src/components/Image-6.gif'
+let pic7 = 'https://raw.githubusercontent.com/BlazeRahim/InnerCalm/main/innercalm/src/components/Image-7.gif'
+let pic8 = 'https://raw.githubusercontent.com/BlazeRahim/InnerCalm/main/innercalm/src/components/Image-8.gif'
 const musicList = [music1, music2, music3, music4, music5];
-
-
-
 
 
 /////////////////
@@ -56,11 +66,17 @@ const leftArrowStyles = {
     filter: " drop-shadow(#000 1px 1px 10px)"
 };
 
-const sliderStyles = {
-    height: "100%",
-};
 
 const ImageSlider = ({ slides }) => {
+    useEffect(() => {
+        // Update document title when component mounts
+        document.title = 'InnerCalm - Music';
+        // Clean up document title when component unmounts
+        return () => {
+            document.title = 'InnerCalm';
+        }
+    }, []);
+
     const [isPlaying, setIsPlaying] = useState(false);
     const [currentIndex, setCurrentIndex] = useState(0);
     const [currentMusicIndex, setCurrentMusicIndex] = useState(0);
@@ -80,28 +96,35 @@ const ImageSlider = ({ slides }) => {
     };
 
     const msGoToNext = async () => {
-
         let audio = audioRef.current;
-        audio.pause();
-        setIsPlaying(false)
+        await audio.pause();
+        setIsPlaying(false);
 
-        if (currentMusicIndex === musicList.length - 1)
-            setCurrentMusicIndex(0)
-        else
-            setCurrentMusicIndex(currentMusicIndex + 1)
-
+        if (currentMusicIndex === musicList.length - 1) {
+            setCurrentMusicIndex(0);
+        } else {
+            setCurrentMusicIndex(currentMusicIndex + 1);
+        }
 
         audio = audioRef.current;
-        audio.play();
-
-
+        await audio.play();
+        await setIsPlaying(true);
 
     };
-    const msGoToPrevious = () => {
+    const msGoToPrevious = async () => {
+
+        let audio = audioRef.current;
+        await audio.pause();
+        setIsPlaying(false);
+
         if (currentMusicIndex === 0)
             setCurrentMusicIndex(musicList.length - 1)
         else
             setCurrentMusicIndex(currentMusicIndex - 1)
+
+        audio = audioRef.current;
+        await audio.play();
+        await setIsPlaying(true);
 
     };
 
@@ -130,7 +153,7 @@ const ImageSlider = ({ slides }) => {
                     ❱
                 </div>
 
-                <div className="allbuttons">
+                <div className="allbuttonsmspg">
                     <button
                         className="next_prev"
                         onClick={msGoToPrevious}
@@ -192,6 +215,10 @@ const Music = () => {
         { url: pic2, title: "2" },
         { url: pic3, title: "3" },
         { url: pic4, title: "4" },
+        { url: pic5, title: "5" },
+        { url: pic6, title: "6" },
+        { url: pic7, title: "7" },
+        { url: pic8, title: "8" },
     ];
     const containerStyles = {
         width: "100%",

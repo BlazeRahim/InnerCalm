@@ -10,13 +10,13 @@ const Nav = () => {
     };
     return (
         <>
-            <nav className="navbar">
+            <nav style={{padding : '0px 20px'}} className="navbar">
                 <div className="navbar__logo">
                     <NavLink to="/">
                         <img src={logo} alt="" />
                     </NavLink>
                 </div>
-                <ul className={open ? "navbar__list active" : "navbar__list"}>
+                <ul style={{marginBottom : "0px"}} className={open ? "navbar__list active" : "navbar__list"}>
                     <li>
                         <NavLink to="/">Home</NavLink>
                     </li>

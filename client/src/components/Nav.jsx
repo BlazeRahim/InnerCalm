@@ -16,7 +16,7 @@ const Nav = () => {
                         <img src={logo} alt="" />
                     </NavLink>
                 </div>
-                <ul className={open ? "navbar__list active" : "navbar__list"}>
+                <ul  style={{marginBottom : "0px", paddingLeft: "0"}} className={open ? "navbar__list active" : "navbar__list"}>
                     <li>
                         <NavLink to="/community">Community</NavLink>
                     </li>

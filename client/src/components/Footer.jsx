@@ -4,11 +4,14 @@ import React from "react"
 const Footer = () => {
 
     let footerStyle = {
-        backgroundColor: "#101316",
+        backgroundColor: "#092338",
         color: "white",
         textAlign: "center",
-        padding: "10px",
-        fontFamily: '"Baloo Bhai 2","Poppins",sans-serif',
+        display : "flex",
+        alignItems : "center",
+        justifyContent : "center",
+        height : "40px",
+         fontFamily: '"Baloo Bhai 2","Poppins",sans-serif',
         borderTop : "1px solid white"
     }
     return (

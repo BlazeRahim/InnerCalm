@@ -1,10 +1,10 @@
-.allbuttons {
+.allbuttonsmspg {
     position: absolute;
     top: 20%;
     right: 10%;
 
     display: flex;
-    min-width: 150px;
+    min-width: 200px;
     max-width: 300px;
     justify-content: space-evenly;
     align-items: center;
@@ -16,20 +16,20 @@
     box-shadow: 0px 0px 30px #000;
 }
 
-.allbuttons button {
+.allbuttonsmspg button {
     display: inline-flex;
     align-items: center;
 }
 
 @media screen and (max-width :768px) {
 
-    .allbuttons {
+    .allbuttonsmspg {
         position: absolute;
         top: 20%;
         right: 5%;
 
         display: flex;
-        min-width: 150px;
+        min-width: 200px;
         max-width: 300px;
         justify-content: space-evenly;
         align-items: center;
@@ -41,13 +41,9 @@
         box-shadow: 0px 0px 30px #000;
     }
 
-    .allbuttons button svg {
+    .allbuttonsmspg button svg {
         font-size: 20px;
 
     }
 
-    .allbuttons {
-        min-width: 120px;
-        max-width: 250px;
-    }
 }

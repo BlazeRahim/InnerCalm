@@ -42,17 +42,17 @@
     width: auto;
 }
 
-.navbar__list {
+.navbar__listms {
     display: flex;
     align-items: center;
     list-style: none;
 }
 
-.navbar__list li {
+.navbar__listms li {
     margin: 0 20px;
 }
 
-.navbar__list li a {
+.navbar__listms li a {
     font-size: 20px;
     padding: 2px 10px;
     border-radius: 20px;
@@ -122,7 +122,7 @@
         width: auto;
     }
 
-    .navbar__list {
+    .navbar__listms {
 
         position: absolute;
         top: 80px;
@@ -141,12 +141,12 @@
         z-index: 99;
     }
 
-    .navbar__list.active {
+    .navbar__listms.active {
         opacity: 1;
         visibility: visible;
     }
 
-    .navbar__list li {
+    .navbar__listms li {
         margin: 10px 0;
     }
 

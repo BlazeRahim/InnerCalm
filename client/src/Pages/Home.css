@@ -14,6 +14,10 @@
     background-color: #6a8b95;
     /* backdrop-filter: brightness(30%); */
     background: linear-gradient(180deg, #fff, #f2b5af, #5faae3);
+    background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgba(0, 0, 0, 0) 74%),
+        url('https://plus.unsplash.com/premium_photo-1667862241971-e1f08f51dd07?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2021&q=80') center no-repeat;
+    background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,6 +36,7 @@
     color: #13436b;
     text-align: center;
     /* text-shadow: rgb(0, 0, 0) 0px 0px 16px; */
+    font-weight: 700;
 }
 
 
@@ -43,6 +48,8 @@
     text-align: center;
     /* text-shadow: rgb(0, 0, 0) 0px 0px 16px; */
     color: #007191;
+    font-weight: 600;
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -99,6 +106,7 @@
 
 .mtimgs {
     background-color: #f2b5af;
+    background: linear-gradient(#fef3d8, #5faae3, #939bcb);
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -111,7 +119,7 @@
 .mt_content h2 {
     font-size: 35px;
     margin: 30px 0px;
-    font-family: 'Baloo Bhai 2', sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
 }
 
@@ -220,8 +228,10 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    backdrop-filter: brightness(50%) blur(5px);
+    backdrop-filter: brightness(70%) blur(5px);
     padding: 30px 0px;
+    border-top: #fff 2px solid;
+    border-bottom: #fff 2px solid;
     height: 100%;
 }
 
@@ -242,6 +252,7 @@
     margin-bottom: 30px;
     width: 70%;
     color: white;
+    text-shadow: #000 0px 0px 10px;
 
 }
 
@@ -280,6 +291,10 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        background: linear-gradient(180deg, #fff, #f2b5af, #5faae3);
+        background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 0%, rgba(0, 0, 0, 0) 100%),
+            url('https://plus.unsplash.com/premium_photo-1667862241971-e1f08f51dd07?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2021&q=80') center no-repeat;
+        background-size: cover;
     }
 
     .banner_tag {
