@@ -1,4 +1,4 @@
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 import './Home.css';
 import Nav from '../components/Nav'
 import imglink from '../components/linksofimgs'

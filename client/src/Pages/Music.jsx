@@ -143,69 +143,71 @@ const ImageSlider = ({ slides }) => {
     };
 
     return (
-        <div style={slideStylesWidthBackground} >
-            <div>
-                <audio ref={audioRef} src={musicList[currentMusicIndex]}></audio>
-                <div onClick={goToPrevious} style={leftArrowStyles}>
-                    ❰
+        <div style={{ background: "#101316" }} className="musspage">
+            <div style={slideStylesWidthBackground} >
+                <div>
+                    <audio ref={audioRef} src={musicList[currentMusicIndex]}></audio>
+                    <div onClick={goToPrevious} style={leftArrowStyles}>
+                        ❰
+                    </div>
+                    <div onClick={goToNext} style={rightArrowStyles}>
+                        ❱
+                    </div>
+
+                    <div className="allbuttonsmspg">
+                        <button
+                            className="next_prev"
+                            onClick={msGoToPrevious}
+                            style={{
+                                cursor: 'pointer',
+                                display: 'inline-block',
+                                fontSize: '25px',
+                                border: "none",
+                                backgroundColor: "#00000000",
+                                color: "#fff",
+                                textShadow: "#000 2px 2px 20px"
+                            }}
+                        >
+                            <FontAwesomeIcon icon={faStepBackward} />
+                        </button>
+                        <button
+                            onClick={() => {
+                                setIsPlaying(!isPlaying);
+                                const audio = audioRef.current;
+                                if (audio.paused) {
+                                    audio.play();
+                                } else {
+                                    audio.pause();
+                                }
+                            }}
+                            className="play-button" style={{ cursor: "pointer", fontSize: "30px", border: "none", backgroundColor: "#00000000", color: "#fff", textShadow: "#000 2px 2px 20px" }} >
+                            <FontAwesomeIcon icon={isPlaying ? faPause : faPlay} />
+                        </button>
+                        <button
+                            className="next_prev"
+                            onClick={msGoToNext}
+                            style={{
+                                cursor: 'pointer',
+                                border: "none",
+                                display: 'inline-block',
+                                fontSize: '25px',
+                                backgroundColor: "#00000000", color: "#fff", textShadow: "#000 2px 2px 20px"
+                            }}
+                        >
+                            <FontAwesomeIcon icon={faStepForward} />
+
+                        </button>
+
+
+                        <button className="fullscreen-button" onClick={handleFullScreenClick} style={{ marginRight: "-10px", color: "white", cursor: "pointer", fontSize: '25px', backgroundColor: "#00000000", border: "none" }}>
+                            <FontAwesomeIcon icon={faExpand} />
+                        </button>
+                    </div>
+
                 </div>
-                <div onClick={goToNext} style={rightArrowStyles}>
-                    ❱
-                </div>
-
-                <div className="allbuttonsmspg">
-                    <button
-                        className="next_prev"
-                        onClick={msGoToPrevious}
-                        style={{
-                            cursor: 'pointer',
-                            display: 'inline-block',
-                            fontSize: '25px',
-                            border: "none",
-                            backgroundColor: "#00000000",
-                            color: "#fff",
-                            textShadow: "#000 2px 2px 20px"
-                        }}
-                    >
-                        <FontAwesomeIcon icon={faStepBackward} />
-                    </button>
-                    <button
-                        onClick={() => {
-                            setIsPlaying(!isPlaying);
-                            const audio = audioRef.current;
-                            if (audio.paused) {
-                                audio.play();
-                            } else {
-                                audio.pause();
-                            }
-                        }}
-                        className="play-button" style={{ cursor: "pointer", fontSize: "30px", border: "none", backgroundColor: "#00000000", color: "#fff", textShadow: "#000 2px 2px 20px" }} >
-                        <FontAwesomeIcon icon={isPlaying ? faPause : faPlay} />
-                    </button>
-                    <button
-                        className="next_prev"
-                        onClick={msGoToNext}
-                        style={{
-                            cursor: 'pointer',
-                            border: "none",
-                            display: 'inline-block',
-                            fontSize: '25px',
-                            backgroundColor: "#00000000", color: "#fff", textShadow: "#000 2px 2px 20px"
-                        }}
-                    >
-                        <FontAwesomeIcon icon={faStepForward} />
-
-                    </button>
-
-
-                    <button className="fullscreen-button" onClick={handleFullScreenClick} style={{ marginRight: "-10px", color: "white", cursor: "pointer", fontSize: '25px', backgroundColor: "#00000000", border: "none" }}>
-                        <FontAwesomeIcon icon={faExpand} />
-                    </button>
-                </div>
-
+                <div></div>
             </div>
-            <div></div>
-        </div >
+        </div>
     );
 };
 
