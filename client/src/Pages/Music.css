@@ -1,0 +1,53 @@
+.allbuttons {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+
+    display: flex;
+    min-width: 150px;
+    max-width: 300px;
+    justify-content: space-evenly;
+    align-items: center;
+
+    border-radius: 50px;
+    backdrop-filter: blur(10px) brightness(70%);
+    border: 1px solid white;
+    padding: 10px 20px;
+    box-shadow: 0px 0px 30px #000;
+}
+
+.allbuttons button {
+    display: inline-flex;
+    align-items: center;
+}
+
+@media screen and (max-width :768px) {
+
+    .allbuttons {
+        position: absolute;
+        top: 20%;
+        right: 5%;
+
+        display: flex;
+        min-width: 150px;
+        max-width: 300px;
+        justify-content: space-evenly;
+        align-items: center;
+
+        border-radius: 50px;
+        backdrop-filter: blur(10px) brightness(70%);
+        border: 1px solid white;
+        padding: 10px 20px;
+        box-shadow: 0px 0px 30px #000;
+    }
+
+    .allbuttons button svg {
+        font-size: 20px;
+
+    }
+
+    .allbuttons {
+        min-width: 120px;
+        max-width: 250px;
+    }
+}
