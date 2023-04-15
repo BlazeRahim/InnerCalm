@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+# INNERCALM
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+'INNERCALM' is a comprehensive web app that aims to promote mental well-being and provide a platform for users to find inner peace. Developed using React, a popular JavaScript library for building user interfaces, the app offers various features to support users in their mental health journey.
 
-## Available Scripts
+The app consists of multiple pages, including a home page, community page, music page, education page, and helplines page. The home page welcomes users with a description of the app and showcases random motivational images and quotes to inspire and uplift their mood. The community page is a space where users can read and share their personal stories related to mental health, fostering a sense of community and support. The music page provides soothing music that users can listen to on the website, helping them relax and destress. The education page offers resources and links related to mental well-being, providing users with valuable information to improve their mental health. The helplines page provides contact information for various mental health NGOs and foundations, giving users access to professional support when needed.
 
-In the project directory, you can run:
+The app has been designed with a clean and simple interface to ensure a user-friendly experience. The development process involved creating different components for each page and integrating them to create a cohesive and seamless user journey. The content for the app, including motivational images, quotes, and educational resources, has been carefully curated to align with the objective of promoting mental well-being.
 
-### `npm start`
+The 'INNERCALM' web app has been well-received by users, with positive feedback highlighting its effectiveness in promoting mental health and providing a safe space for users to share their stories and access valuable resources. The app has been designed to be responsive, accessible, and inclusive, catering to a wide range of users. It encourages users to prioritize their mental health and offers tools and resources to support them in their well-being journey.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+With its comprehensive features and user-friendly interface, 'INNERCALM' aims to be a go-to platform for individuals seeking to improve their mental health and find inner peace. The app is constantly updated with relevant content and resources to ensure it remains a valuable and reliable source of support for users. Whether it's through motivational content, community sharing, soothing music, educational resources, or helpline contacts, 'INNERCALM' strives to empower users on their mental health journey and promote a culture of well-being.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Project Objective
 
-### `npm test`
+The objective of the 'INNERCALM' web app is to create a safe and supportive space for users and patients to connect, share their stories, and access helpful resources related to mental health. 'INNERCALM' also aims to provide a platform that promotes mental well-being and helps users that may have mental ailments find inner peace through various features such as motivational content, community sharing, soothing music, and educational resources.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Project Scope
 
-### `npm run build`
+The scope of the 'INNERCALM' web app includes multiple pages such as the home page, community page, music page, education page, and helplines page. The home page displays a description of the app and features random motivational images and quotes. The community page allows users to read and share their personal stories related to mental health. The music page provides soothing music for users to listen to on the website. The education page offers resources and links related to mental well-being. The helplines page provides contact information for various mental health NGOs and foundations.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Methodology
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The web app was developed using the React framework, which is a popular JavaScript library for building user interfaces. The app was designed to be responsive and user-friendly, with a clean and simple interface. The development process involved creating different components for each page and integrating them to create a cohesive user experience. The content for the app, including motivational images, quotes, and educational resources, was curated carefully to ensure it aligns with the objective of promoting mental well-being.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
