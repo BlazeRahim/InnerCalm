@@ -29,6 +29,9 @@ Explore and experience INNERCALM now !!
 - Helplines page with contact information for mental health NGOs and foundations.
 <img src="https://raw.githubusercontent.com/iamhk12/Projects/main/WebProjects/Assets/innerCalmSS/helplinespage.png" alt="INNERCALM Helplines Page" width="400" height="auto">
 
+- Contact Page will help you to connect to us.
+<img src="https://raw.githubusercontent.com/iamhk12/Projects/main/WebProjects/Assets/innerCalmSS/contactpage.png" alt="INNERCALM Contact Page" width="400" height="auto">
+
 ##
 
 
