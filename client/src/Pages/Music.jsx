@@ -129,7 +129,7 @@ const ImageSlider = ({ slides }) => {
     }, []);
 
     const [isPlaying, setIsPlaying] = useState(false);
-    const [currentIndex, setCurrentIndex] = useState(0);
+    const [currentIndex, setCurrentIndex] = useState(4);
     const [currentMusicIndex, setCurrentMusicIndex] = useState(0);
     const audioRef = useRef(null);
 
