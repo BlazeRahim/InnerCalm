@@ -4,6 +4,12 @@
 
 ## Features
 
+[https://innercalm.netlify.app/](https://innercalm.netlify.app/)
+
+Explore and experience the positiveness, healing of INNERCALM now !!
+
+## Features
+
 - Home page with app description, motivational images, and quotes.
 
 <img src="https://raw.githubusercontent.com/iamhk12/Projects/main/WebProjects/Assets/innerCalmSS/homepage.png" alt="INNERCALM Home Page" width="400" height="auto">
@@ -31,14 +37,20 @@
 <img src="https://raw.githubusercontent.com/iamhk12/Projects/main/WebProjects/Assets/innerCalmSS/res2.png" alt="INNERCALM Education Page" width="400" height="auto">
 
 
-## Objective
+## Motive
 
-The objective of 'INNERCALM' is to provide a safe space for users to connect, share, and access resources related to mental health. It aims to promote mental well-being and help users find inner peace.
+The motive of 'INNERCALM' is to provide a safe space for users to connect, share, and access resources related to mental health. It aims to promote mental well-being and help users find inner peace.
 
 ## Scope
 
 The scope of 'INNERCALM' includes multiple pages for different features, all designed to be responsive and user-friendly.
 
-## Methodology
+## Results
 
 'INNERCALM' was developed using React, with a clean and simple interface. Different components were created for each page and integrated for a seamless user experience. Content, including motivational images and educational resources, was carefully curated to align with the objective of promoting mental well-being.
+
+
+Regards,
+Team Innercalm.
+
+
