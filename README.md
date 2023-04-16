@@ -2,7 +2,7 @@
 
 'INNERCALM' is a comprehensive web app for mental well-being. Built with React, it offers features like motivational content, community sharing, soothing music, and educational resources to promote inner peace.
 
-![INNERCALM Home Page](https://example.com/innercalm-home.gif)
+![INNERCALM Home Page](https://raw.githubusercontent.com/iamhk12/Projects/main/WebProjects/Assets/innerCalmSS/homepage.png)
 
 ## Features
 
@@ -12,7 +12,7 @@
 - Education page with resources and links for mental well-being.
 - Helplines page with contact information for mental health NGOs and foundations.
 
-![INNERCALM Community Page](https://example.com/innercalm-community.gif)
+![INNERCALM Community Page](https://raw.githubusercontent.com/iamhk12/Projects/main/WebProjects/Assets/innerCalmSS/communitypage.png)
 
 ## Objective
 
@@ -22,10 +22,10 @@ The objective of 'INNERCALM' is to provide a safe space for users to connect, sh
 
 The scope of 'INNERCALM' includes multiple pages for different features, all designed to be responsive and user-friendly.
 
-![INNERCALM Music Page](https://example.com/innercalm-music.gif)
+![INNERCALM Music Page](https://raw.githubusercontent.com/iamhk12/Projects/main/WebProjects/Assets/innerCalmSS/musicpage.png)
 
 ## Methodology
 
 'INNERCALM' was developed using React, with a clean and simple interface. Different components were created for each page and integrated for a seamless user experience. Content, including motivational images and educational resources, was carefully curated to align with the objective of promoting mental well-being.
 
-![INNERCALM Education Page](https://example.com/innercalm-education.gif)
+![INNERCALM Education Page](https://raw.githubusercontent.com/iamhk12/Projects/main/WebProjects/Assets/innerCalmSS/educationpage.png)
