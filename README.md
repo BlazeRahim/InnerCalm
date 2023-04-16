@@ -29,6 +29,8 @@
 <br><br>
 
 <img src="https://raw.githubusercontent.com/iamhk12/Projects/main/WebProjects/Assets/innerCalmSS/res2.png" alt="INNERCALM Education Page" width="400" height="auto">
+
+
 ## Objective
 
 The objective of 'INNERCALM' is to provide a safe space for users to connect, share, and access resources related to mental health. It aims to promote mental well-being and help users find inner peace.
