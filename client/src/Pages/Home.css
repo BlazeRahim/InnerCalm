@@ -638,7 +638,7 @@
     box-shadow: 0 0 1em .25em var(--glow-color),
         0 0 4em 1em var(--glow-spread-color);
 
-        /* inset 0 0 .75em .25em var(--glow-color); */
+    /* inset 0 0 .75em .25em var(--glow-color); */
     background-color: #fc666f;
     color: white;
     border: .25em solid var(--glow-color);
@@ -648,8 +648,8 @@
 .listen_button:hover {
     --glow-color: #fff;
     box-shadow: 0 0 1em .25em var(--glow-color),
-    0 0 4em 1em var(--glow-spread-color),
-    inset 0 0 .75em .25em var(--glow-color);
+        0 0 4em 1em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
     transform: scale(1.1);
     box-shadow: #00000039 0px 10px 20px;
     background-color: var(--glow-color);

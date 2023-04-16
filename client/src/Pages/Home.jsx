@@ -103,10 +103,7 @@ const Home = () => {
                 <div className="about_content">
                     <h2>About</h2>
                     <p>
-                        Welcome to InnerCalm! We are a team of students who are committed to helping you find peace and tranquility in
-                        your daily life. Our mission is to provide you with the tools
-                        and resources you need to achieve a simple - mental, emotional, and physical
-                        well-being.
+                    InnerCalm is a project focused on providing tools and resources for individuals to achieve mental and emotional well-being. Our mission is to empower individuals with simple and accessible strategies for managing stress and cultivating inner peace. Through stories, music and other resources, our team of students is committed to helping individuals find tranquility in their daily lives.
                     </p>
                 </div>
             </section>
