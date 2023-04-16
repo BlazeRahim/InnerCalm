@@ -49,7 +49,7 @@ The scope of 'INNERCALM' includes multiple pages for different features, all des
 
 'INNERCALM' was developed using React, with a clean and simple interface. Different components were created for each page and integrated for a seamless user experience. Content, including motivational images and educational resources, was carefully curated to align with the objective of promoting mental well-being.
 
-<hr>
+##
 
 Regards,<br>
 Team Innercalm.
