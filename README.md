@@ -6,7 +6,7 @@
 
 [https://innercalm.netlify.app/](https://innercalm.netlify.app/)
 
-Explore and experience the positiveness, healing of INNERCALM now !!
+Explore and experience INNERCALM now !!
 
 ## Features
 
