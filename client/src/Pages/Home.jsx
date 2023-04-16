@@ -65,27 +65,28 @@ const Home = () => {
                 </div>
             </section>
 
-
-            {/* 
             <section className="listen_music">
                 <div className="listen_music_content">
                     <h2>
-                        MUSIC HEALS ..
+                        MUSIC HEALS 
                     </h2>
                     <p>
                         Music has the power to heal and soothe our souls. Listening to our peaceful music and sounds can bring relaxation, tranquility, and a sense of inner peace. It can help reduce stress, anxiety, and promote overall well-being. Our carefully curated collection of music is designed to elevate your mood, calm your mind, and rejuvenate your spirit.
                     </p>
+                    <div className="listen_music_right">
+                        <Link to="/music">
+                            <button className="listen_button">
+                                <span className="link">
+                                    🎧 Listen Now
+                                </span>
+                            </button>
+                        </Link>
+                    </div>
 
                 </div>
 
-                <div className="listen_music_right">
-                <button className="listen_button">
-                    <span className="link">
-                        <Link to="/music">Listen Now</Link>
-                    </span>
-                </button>
-                </div>
-            </section> */}
+            </section>
+
 
             <section className="mtimgs">
                 <div className="mt_content">
@@ -109,6 +110,8 @@ const Home = () => {
                     </p>
                 </div>
             </section>
+
+
 
             <Footer />
         </>
