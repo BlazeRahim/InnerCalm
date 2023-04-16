@@ -6,19 +6,19 @@
 
 - Home page with app description, motivational images, and quotes.
 
-![INNERCALM Home Page](https://raw.githubusercontent.com/iamhk12/Projects/main/WebProjects/Assets/innerCalmSS/homepage.png)
+<img src="https://raw.githubusercontent.com/iamhk12/Projects/main/WebProjects/Assets/innerCalmSS/homepage.png" alt="INNERCALM Home Page" width="400" height="auto">
 
 - Community page for users to read and share personal stories related to mental health.
 
-![INNERCALM Community Page](https://raw.githubusercontent.com/iamhk12/Projects/main/WebProjects/Assets/innerCalmSS/communitypage.png)
+<img src="https://raw.githubusercontent.com/iamhk12/Projects/main/WebProjects/Assets/innerCalmSS/communitypage.png" alt="INNERCALM Community Page" width="400" height="auto">
 
 - Music page with soothing music for relaxation.
 
-![INNERCALM Music Page](https://raw.githubusercontent.com/iamhk12/Projects/main/WebProjects/Assets/innerCalmSS/musicpage.png)
+<img src="https://raw.githubusercontent.com/iamhk12/Projects/main/WebProjects/Assets/innerCalmSS/musicpage.png" alt="INNERCALM Music Page" width="400" height="auto">
 
 - Education page with resources and links for mental well-being.
 
-![INNERCALM Education Page](https://raw.githubusercontent.com/iamhk12/Projects/main/WebProjects/Assets/innerCalmSS/educationpage.png)
+<img src="https://raw.githubusercontent.com/iamhk12/Projects/main/WebProjects/Assets/innerCalmSS/educationpage.png" alt="INNERCALM Education Page" width="400" height="auto">
 
 - Helplines page with contact information for mental health NGOs and foundations.
 
