@@ -25,43 +25,40 @@ const Community = () => {
     };
 
     const handleSubmit = (e) => {
-
+        e.preventDefault();
+        let x = JSON.stringify({ name, story });
         if (!story) {
             setSubErr(true)
             return;
         }
 
-        e.preventDefault();
+       
         fetch('https://innercallmserver.onrender.com/newpost', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ name, story }),
-        })
-            .then((response) => {
-                response.json()
-                console.log(response)
-                if (response.status === 200) {
-                    setName("")
-                    setStory("")
-                    handleCloseForm();
-                    FetchPosts()
+            body: x,
+        }).then((response) => {
+            response.json()
+            // console.log(response)
+            if (response.status === 200) {
+                setName("")
+                setStory("")
+                FetchPosts()
 
-                } else {
+            } else {
 
-                    setSubErr(true)
-                }
-            })
-            .then((data) => {
-                console.log(data);
-                // do something with the response data
-
-
-            })
-            .catch((error) => {
-                console.error('Error:', error);
                 setSubErr(true)
+            }
+        }).then((data) => {
+            console.log(data);
+            // do something with the response data
 
-            });
+
+        }).catch((error) => {
+            console.error('Error:', error);
+            setSubErr(true)
+
+        });
 
     };
 
@@ -97,7 +94,7 @@ const Community = () => {
 
             const data = await resFromBack.json()
             setAllPosts(data)
-            console.log(data)
+            // console.log(data)
 
 
             if (resFromBack.status !== 200 || !data) {
@@ -156,27 +153,14 @@ const Community = () => {
 
                     <div className="allposts">
 
-                        {/* ////////////////// */}
-                        {/* <div className="post">
-        <div className="posthead">
-            <img src={defpp} alt="" />
-            <p className="name">Anonymous</p>
-        </div>
 
-        <div className="post_content">
-            <p className="post_text">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque vero officia quidem aspernatur fugiat eaque quis fuga maiores laudantium expedita quisquam sed nemo itaque unde, quae id sequi facere pariatur facilis eum optio aut accusamus. Ipsam consequuntur voluptate nobis, vel facilis fuga sint praesentium, natus nulla vitae repudiandae nostrum aut distinctio perferendis nisi tempora necessitatibus magnam delectus, modi adipisci voluptates quam? Asperiores corrupti, incidunt perferendis magnam inventore cupiditate labore cumque provident consequuntur, earum repellat ut quas quod hic.
-            </p>
-
-        </div>
-    </div> */}
 
                         {allposts.map((val) => {
                             return <>
                                 <div className="post">
                                     <div className="posthead">
                                         <img src={defpp} alt="" />
-                                        <p className="name">{"User" + Math.floor(Math.random() * 1000000)}</p>
+                                        <p style={{ margin: "0px" }} className="name">{"User" + Math.floor(Math.random() * 1000000)}</p>
                                     </div>
 
                                     <div className="post_content">
@@ -188,9 +172,7 @@ const Community = () => {
                                 </div>
                             </>
                         })}
-                        {/* ////////////////// */}
-
-                        {/* {sharesection !== {} ? <><h2 style={sharesection}>Sharing your feature will be available soon</h2></> : <></>} */}
+                    
                     </div>
 
 
@@ -221,7 +203,7 @@ const Community = () => {
                                     value={story}
                                     onChange={(e) => setStory(e.target.value)}
                                 />
-                                {suberr ? <span className="errormessage"> *Error Posting the story</span> : <></>}
+                                {suberr ? <span className="errormessage"> *Error Posting, Please try again.</span> : <></>}
                                 <div className="form-buttons">
                                     <button type="submit" className="submitbtn" >Submit</button>
                                     <button className="closebtn" type="button" onClick={handleCloseForm}>
