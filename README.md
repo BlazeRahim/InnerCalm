@@ -6,7 +6,7 @@
 
 [https://innercalm.netlify.app/](https://innercalm.netlify.app/)
 
-Explore and experience the positiveness, healing of INNERCALM now !!
+Explore and experience INNERCALM now !!
 
 ## Features
 
@@ -27,14 +27,21 @@ Explore and experience the positiveness, healing of INNERCALM now !!
 <img src="https://raw.githubusercontent.com/iamhk12/Projects/main/WebProjects/Assets/innerCalmSS/educationpage.png" alt="INNERCALM Education Page" width="400" height="auto">
 
 - Helplines page with contact information for mental health NGOs and foundations.
+<img src="https://raw.githubusercontent.com/iamhk12/Projects/main/WebProjects/Assets/innerCalmSS/helplinespage.png" alt="INNERCALM Helplines Page" width="400" height="auto">
+
+- Contact Page will help you to connect to us.
+<img src="https://raw.githubusercontent.com/iamhk12/Projects/main/WebProjects/Assets/innerCalmSS/contactpage.png" alt="INNERCALM Contact Page" width="400" height="auto">
+
+##
+
 
 - The whole web app is responsive and works well with mobile phones and tablets too.
 
-<img src="https://raw.githubusercontent.com/iamhk12/Projects/main/WebProjects/Assets/innerCalmSS/res1.png" alt="INNERCALM Education Page" width="400" height="auto">
+<img src="https://raw.githubusercontent.com/iamhk12/Projects/main/WebProjects/Assets/innerCalmSS/res1.png" alt="INNERCALM Page" width="400" height="auto">
 
 <br><br>
 
-<img src="https://raw.githubusercontent.com/iamhk12/Projects/main/WebProjects/Assets/innerCalmSS/res2.png" alt="INNERCALM Education Page" width="400" height="auto">
+<img src="https://raw.githubusercontent.com/iamhk12/Projects/main/WebProjects/Assets/innerCalmSS/res2.png" alt="INNERCALM Page" width="400" height="auto">
 
 
 ## Motive
@@ -49,8 +56,9 @@ The scope of 'INNERCALM' includes multiple pages for different features, all des
 
 'INNERCALM' was developed using React, with a clean and simple interface. Different components were created for each page and integrated for a seamless user experience. Content, including motivational images and educational resources, was carefully curated to align with the objective of promoting mental well-being.
 
+##
 
-Regards,
+Regards,<br>
 Team Innercalm.
 
 
