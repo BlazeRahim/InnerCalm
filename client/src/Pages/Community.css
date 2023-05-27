@@ -7,7 +7,7 @@
 
 .linearbgcmitypg {
   transition: 0.3s all ease-in-out;
-  background: linear-gradient(#fff, #f2b5bb,#5faae3, #939bcb);
+  background: linear-gradient(#fff, #f2b5bb, #5faae3, #939bcb);
 }
 
 .CMT {
@@ -43,7 +43,7 @@
   /* border: 2px solid white; */
   max-width: 30%;
   min-width: 30%;
-  padding: 20px 30px;
+  padding: 10px 15px;
   background-color: #fff;
   color: white;
   border-radius: 10px;
@@ -54,7 +54,7 @@
 .posthead {
   display: flex;
   color: black;
-  padding: 30px 30px;
+  padding: 20px 20px;
   align-items: center;
   font-family: 'Baloo Bhai 2';
 }
@@ -72,6 +72,10 @@
   padding-top: 0;
 }
 
+.posthead .name {
+  font-weight: 700;
+}
+
 .post_text {
   font-size: 15px;
   line-height: 25px;
@@ -82,7 +86,7 @@
 
 .form-popup {
   position: fixed;
-  z-index: 1;
+  z-index: 9999999;
   left: 0;
   top: 0;
   width: 100%;
@@ -233,7 +237,7 @@
   }
 
   .post {
-    max-width: 70%;
+    max-width: 85%;
     min-width: 70%;
     padding: 10px 10px;
     /* background-color: #1e2227; */
@@ -246,6 +250,7 @@
     display: flex;
     /* color: white; */
     padding: 10px 10px;
+    align-items: center;
     align-items: center;
     font-family: 'Baloo Bhai 2';
     /* margin-bottom: 20px; */
@@ -260,6 +265,7 @@
 
   .posthead .name {
     font-size: 13px;
+    font-weight: 700;
   }
 
   .post_content {

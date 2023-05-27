@@ -1,5 +1,5 @@
 .banner {
-    min-height: calc(100vh - 80px);
+    min-height: calc(100vh - 50px);
     width: 100%;
     display: flex;
     /* background: url('../components/banner.jpeg'); */
@@ -15,7 +15,7 @@
     /* backdrop-filter: brightness(30%); */
     background: linear-gradient(180deg, #fff, #f2b5af, #5faae3);
     background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgba(0, 0, 0, 0) 74%),
-        url('https://plus.unsplash.com/premium_photo-1667862241971-e1f08f51dd07?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2021&q=80') center no-repeat;
+        url('../components/homebg.jpeg') center no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -31,7 +31,7 @@
 .banner_tag h1 {
     font-family: 'Montserrat';
     /* padding-top: 60px; */
-    font-size: 80px;
+    font-size: 55px;
     /* padding-right: 50%; */
     color: #13436b;
     text-align: center;
@@ -42,7 +42,7 @@
 
 .banner_tag h2 {
     font-family: 'Poppins';
-    font-size: 40px;
+    font-size: 30px;
     /* padding-right: 50%; */
     color: #13436b;
     text-align: center;
